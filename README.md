@@ -2,7 +2,7 @@
 
 *Dislaimer: The data used in the following project is for non-commercial educational and personal use.*
 
-Project Overview
+**Project Overview**
 
 In my personalized Spotify Search Engine project, I developed a program in C++ that reads in my Spotify 2019 Top 100 CSV file, parses the comma-delimited, quote-qualified data, stores the information into string arrays, compares the user-inputted query to elements in the array (iteratively or recursively depending on the user's input),
 and outputs details to the user about the song or artist depending on the query. 
