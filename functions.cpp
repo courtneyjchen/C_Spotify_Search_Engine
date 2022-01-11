@@ -8,9 +8,7 @@ const int capacity = 100;
 // Compares the user input to songs in each line and displays the song information when there's a match.
 void iterativeTitle(string query, string songs[], string artists[], string publishers[], string duration[]) {
     bool found = false;
-
     for (int i = 0; i <= capacity; i++) {
-        cout << " recursive title function i " << i << "query " << query << " songs[i] is" << songs[i] << endl;
         if (songs[i] == query) {
             cout << "1 Song Found!" << endl;
             cout << songs[i] << endl;
@@ -29,8 +27,7 @@ void iterativeTitle(string query, string songs[], string artists[], string publi
 // Compares the user input to artists in each line and displays the book information when there's a match.
 void iterativeArtist(string query, string songs[], string artists[], string publishers[], string duration[]) {
     bool found = false;
-    int size = artists -> size();
-    for (int i = 0; i <= size; i++) {
+    for (int i = 0; i <= capacity; i++) {
         if (artists[i] == query) {
             cout << "1 Song Found!" << endl;
             cout << songs[i] << endl;
@@ -78,7 +75,7 @@ void recursiveArtist(int i, string query, string songs[], string artists[], stri
     }
 }
 
-// Displays a menu to the user and calls function or quits depending on the user's choice.
+// Displays a menu to the user and calls function or quits depending on the user's choice
 int menu(string songs[], string artists[], string albums[], string duration[]){
     int choice;
     string query;
