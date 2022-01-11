@@ -75,7 +75,7 @@ void recursiveArtist(int i, string query, string songs[], string artists[], stri
     }
 }
 
-// Displays a menu to the user and calls function or quits depending on the user's choice
+// Displays a menu to the user and calls function or quits depending on the user's choice.
 int menu(string songs[], string artists[], string albums[], string duration[]){
     int choice;
     string query;
